@@ -30,6 +30,7 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
 ## References
 
 - [How to check if a string is upper, lower, or mixed case in Python](kite.com/python/answers/how-to-check-if-a-string-is-upper,-lower,-or-mixed-case-in-python).
+- [python-string-utils](https://github.com/daveoncode/python-string-utils) package.
 
 ## Notes
 
@@ -123,4 +124,4 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
   - [NERDTree](https://github.com/preservim/nerdtree) (file browsing).
   - [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) (searching).
   - [fugitive.vim](https://github.com/tpope/vim-fugitive) (Git integration).
-  - [Powerline](https://github.com/powerline/powerline).
+  - [Powerline](https://github.com/powerline/powerline) (status bar).
