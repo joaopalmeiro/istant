@@ -81,3 +81,46 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
     - It can be combined with numbers and movement keys (`dw` and `d2e`, for example).
     - It copies the content. Content can be pasted with `p`.
   - Repeat the previous command: `.`.
+  - Visual mode:
+    - `v`.
+    - To select text with the movement keys first and then apply a command.
+  - Exiting:
+    - `:w`: save.
+    - `:q`: quit.
+    - `:q!`: quit without saving.
+  - Editing:
+    - `u`: undo.
+    - `Ctrl` + `r`: redo.
+  - [`Vim.gitignore` file](https://github.com/github/gitignore/blob/master/Global/Vim.gitignore).
+
+### VIM and Python – A Match Made in Heaven
+
+[Source](https://realpython.com/vim-and-python-a-match-made-in-heaven/).
+
+- [`.vimrc` file](https://github.com/j1z0/vim-config/blob/master/vimrc).
+- `vim --version`.
+- _\*nix_ or _Unix-like_ [systems](https://en.wikipedia.org/wiki/Unix-like).
+- Check the Python version used in Vim: `:python import sys; print(sys.version)`.
+- Extensions or bundles or plugins.
+- [Vundle](https://github.com/VundleVim/Vundle.vim):
+  - `pip` for Vim/Vim plugin manager.
+  - `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`.
+  - Extensions can be managed from the `.vimrc` file (`touch ~/.vimrc`) + `:PluginInstall`.
+- Split layouts:
+  - `:sp <filename>`: vertical split.
+  - `:vs <filename>`: horizontal split.
+- [vscode-viml-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.viml) (VS Code extension).
+- Buffers:
+  - Think of a buffer as a recently opened file.
+  - `:b <buffer name or number>`: switch to an open buffer.
+  - `:ls`: list all buffers.
+- Extensions:
+  - [SimpylFold](https://github.com/tmhedberg/SimpylFold) (code folding).
+  - [indentpython.vim](https://github.com/vim-scripts/indentpython.vim).
+  - [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe) (auto-complete). [Installation instructions](https://github.com/ycm-core/YouCompleteMe#macos).
+  - [syntastic](https://github.com/vim-syntastic/syntastic) (syntax checking).
+  - [vim-flake8](https://github.com/nvie/vim-flake8).
+  - [NERDTree](https://github.com/preservim/nerdtree) (file browsing).
+  - [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) (searching).
+  - [fugitive.vim](https://github.com/tpope/vim-fugitive) (Git integration).
+  - [Powerline](https://github.com/powerline/powerline).
