@@ -56,3 +56,27 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
     - `F`: previous occurrence of a character.
     - `fo` to find the next `o`, for example.
     - These keys can also be combined with numbers.
+  - Go to matching parentheses: `%`.
+  - Go to start/end of line: `0`/`$`.
+  - Find word under cursor:
+    - `*`: next occurrence.
+    - `#`: previous occurrence.
+  - Go to beginning/end of file: `gg`/`G`. `G` can be combined with a number too.
+  - Search:
+    - `/<text>`.
+    - `n`: next occurrence.
+    - `N`: previous occurrence.
+  - Insert new line:
+    - `o`: below the current line.
+    - `O`: above the current line.
+    - The editor is set to `insert` mode.
+  - Remove a character:
+    - `x`: under the cursor.
+    - `X`: to the left of the cursor.
+  - Replace a character:
+    - `r`.
+    - Under the cursor, without switching to `insert` mode.
+  - Delete:
+    - `d`.
+    - It can be combined with numbers and movement keys (`dw` and `d2e`, for example).
+    - It copies the content. Content can be pasted with `p`.
