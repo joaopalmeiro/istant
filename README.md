@@ -80,3 +80,4 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
     - `d`.
     - It can be combined with numbers and movement keys (`dw` and `d2e`, for example).
     - It copies the content. Content can be pasted with `p`.
+  - Repeat the previous command: `.`.
