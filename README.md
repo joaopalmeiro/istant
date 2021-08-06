@@ -36,3 +36,23 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
 - [pyenv](https://github.com/pyenv/pyenv):
   - `pyenv local 3.6.13`. It generates a `.python-version` file. It is similar to the `.nvmrc` file ([nvm](https://github.com/nvm-sh/nvm)).
   - [Should we gitignore the .python-version file?](https://stackoverflow.com/questions/54315206/should-we-gitignore-the-python-version-file).
+- Vim:
+  - Learning tools:
+    - [VIM-ADVENTURES](https://vim-adventures.com/).
+    - [OpenVim](https://www.openvim.com/).
+    - [Vim Cheat Sheet](https://vim.rtorr.com/).
+  - Two basic modes:
+    - `insert` mode (`i`): to write text (like in a text editor).
+    - `normal` mode (`Esc`): to navigate and manipulate text.
+  - Basic movement: `h` (←), `j` (↓), `k` (↑), and `l` (→).
+  - Word movement:
+    - `w`: start of the next word.
+    - `e`: end of the word.
+    - `b`: beginning of the word.
+    - These keys can be combined with a number (number powered movement). `3w` is the same as pressing `w` 3x, for example.
+  - Insert text repeatedly: `30` + `i` + `-` + `Esc` to insert `-` 30x, for example.
+  - Find a character:
+    - `f`: next occurrence of a character.
+    - `F`: previous occurrence of a character.
+    - `fo` to find the next `o`, for example.
+    - These keys can also be combined with numbers.
