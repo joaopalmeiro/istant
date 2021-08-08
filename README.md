@@ -147,3 +147,16 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
 - [`monkeypatch` fixture](https://docs.pytest.org/en/latest/how-to/monkeypatch.html) (+ `@pytest.fixture(autouse=True)` in the `conftest.py` file): to safely patch and mock functionality in tests, allowing to set/delete an attribute, dictionary item, or environment variable, for example (`requests.get()`, for example).
 - Marks (`@pytest.mark.<name>`):
   - It is possible to [register marks](https://docs.pytest.org/en/latest/how-to/mark.html#registering-marks) in the `pytest.ini` file (or in the `pyproject.toml` file). This can be combined with the [`--strict-markers` flag](https://docs.pytest.org/en/latest/how-to/mark.html#raising-errors-on-unknown-marks) to ensure that all marks in the tests are registered in the pytest configuration. On the other hand, `addopts = --strict-markers` can be added to the `pytest.ini` file.
+  - Run `pytest --markers` to check the list of marks.
+  - `skip`: to skip a test.
+  - `skipif`: to skip a test if the expression passed to it evaluates to `True`.
+  - `xfail`: a test is expected to fail.
+  - `parametrize`. The first argument is a comma-delimited string of parameter names. The second argument is a list of either tuples or single values.
+- `--durations` flag:
+  - To include a duration report in the results.
+  - `--durations=3` to report the slowest 3 tests, for example.
+- Plugins:
+  - [List](https://docs.pytest.org/en/latest/reference/plugin_list.html).
+  - [pytest-randomly](https://github.com/pytest-dev/pytest-randomly): to run the tests in a random order.
+  - [pytest-cov](https://github.com/pytest-dev/pytest-cov/): to generate coverage reports ([coverage.py](https://github.com/nedbat/coveragepy) package).
+  - [pytest-bdd](https://github.com/pytest-dev/pytest-bdd) (for behavior-driven development).
