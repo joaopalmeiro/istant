@@ -9,6 +9,7 @@ A Python package to check if an object is of a certain type in an instant.
 
 - `poetry install`
 - `poetry shell`
+- `pytest`
 
 ## Tech Stack
 
@@ -130,6 +131,7 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
 
 [Source](https://realpython.com/pytest-python-testing/).
 
+- `poetry add -D pytest`.
 - Arrange (set up)-Act-Assert model.
 - pytest allows you to use Python's `assert` directly.
 - [Test double](https://en.wikipedia.org/wiki/Test_double): an object that stands in for another object during a test ([source](https://doubles.readthedocs.io/en/latest/terminology.html)), such as mocks, for example.
