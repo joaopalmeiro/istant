@@ -125,3 +125,12 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
   - [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) (searching).
   - [fugitive.vim](https://github.com/tpope/vim-fugitive) (Git integration).
   - [Powerline](https://github.com/powerline/powerline) (status bar).
+
+### Effective Python Testing With Pytest
+
+[Source](https://realpython.com/pytest-python-testing/).
+
+- Arrange (set up)-Act-Assert model.
+- pytest allows you to use Python's `assert` directly.
+- [Test double](https://en.wikipedia.org/wiki/Test_double): an object that stands in for another object during a test ([source](https://doubles.readthedocs.io/en/latest/terminology.html)), such as mocks, for example.
+- In pytest, fixtures are functions that create data/test doubles or initialize some system state for the test suite. They are used as arguments (explicit dependency declarations).
