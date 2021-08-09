@@ -162,3 +162,9 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
   - [pytest-randomly](https://github.com/pytest-dev/pytest-randomly): to run the tests in a random order.
   - [pytest-cov](https://github.com/pytest-dev/pytest-cov/): to generate coverage reports ([coverage.py](https://github.com/nedbat/coveragepy) package).
   - [pytest-bdd](https://github.com/pytest-dev/pytest-bdd) (for behavior-driven development).
+
+### [PyCharm](https://www.jetbrains.com/pycharm/)
+
+- [Uninstall PyCharm](https://www.jetbrains.com/help/pycharm/uninstall.html#standalone).
+- [Black integration](https://black.readthedocs.io/en/stable/integrations/editors.html#pycharm-intellij-idea).
+- `open -na "PyCharm CE.app"` ([source](https://www.jetbrains.com/help/pycharm/working-with-the-ide-features-from-command-line.html#standalone)).
